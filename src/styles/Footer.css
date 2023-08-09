@@ -1,0 +1,108 @@
+.h {
+  color: white;
+  margin-bottom: 200px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&family=Public+Sans&family=Roboto+Serif:opsz,wght@8..144,400;8..144,600&family=Roboto+Slab:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Eczar&family=Montserrat:wght@400;900&family=Public+Sans&family=Rokkitt:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Rosarivo&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Public+Sans&family=Roboto+Serif:opsz,wght@8..144,400;8..144,600&family=Roboto+Slab:wght@300&display=swap");
+
+.foothandler {
+  background-color: #010a2e;
+  width: 100%;
+  height: auto;
+}
+.rel {
+  position: relative;
+}
+.headinghandler {
+  display: flex;
+}
+.headinghandler h1 {
+  color: #0cc86e;
+  text-align: left;
+  font-size: 36px;
+  font-family: "Rokkitt", serif;
+  padding-top: 30px;
+  margin-left: 80px;
+}
+
+.headinghandler h1 span {
+  color: #fff;
+}
+
+.headinghandler h2 {
+  color: white;
+  text-align: left;
+  font-size: 30px;
+  padding-top: 30px;
+  margin-left: 80px;
+}
+
+.footcontent {
+  display: flex;
+  gap: 90px;
+  margin-top: 40px;
+  margin-left: 80px;
+}
+
+.content1 {
+  width: 20%;
+}
+.content1 h2 {
+  color: rgb(250, 251, 250);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-align: left;
+  padding-bottom: 13px;
+}
+
+.content2 {
+  width: 25%;
+}
+.content1 p {
+  color: rgb(203, 201, 201);
+  font-family: "Rosarivo", serif;
+  text-align: justify;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.content2 h2 {
+  color: rgb(250, 251, 250);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-align: left;
+  padding-bottom: 13px;
+}
+.content2 p {
+  color: rgb(203, 201, 201);
+  font-family: "Rosarivo", serif;
+  text-align: justify;
+  padding-top: 10px;
+  font-size: 25px;
+}
+.imagehandler {
+  position: absolute;
+  bottom: 160px;
+  right: 120px;
+}
+.footer {
+  margin-top: 250px;
+  padding-bottom: 35px;
+}
+
+.footer span {
+  color: #fffefe;
+  padding-right: 100px;
+  font-family: "Rosarivo", serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.footer span:hover {
+  text-decoration: underline;
+}

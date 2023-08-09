@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&family=Public+Sans&family=Roboto+Serif:opsz,wght@8..144,400;8..144,600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&family=Public+Sans&family=Roboto+Serif:opsz,wght@8..144,400;8..144,600&family=Roboto+Slab:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Eczar&family=Montserrat:wght@400;900&family=Public+Sans&family=Rokkitt:wght@500&display=swap");
+
+.bodyhandler {
+  display: flex;
+}
+
+.left-body {
+  /* border: solid white 5px; */
+  position: relative;
+  width: 1000px;
+  height: 600px;
+}
+
+.heading {
+  /* position: absolute; */
+  margin-top: 60px;
+  margin-left: 120px;
+  left: 70px;
+  font-family: "Roboto", serif;
+  font-size: 65px;
+  font-weight: 400;
+  text-align: left;
+  color: rgb(244, 235, 235);
+}
+.highlight {
+  color: #0cc86e;
+  font-family: "Roboto", serif;
+  font-weight: 600;
+}
+.p1 {
+  padding-top: 20px;
+
+  margin-left: 120px;
+  text-align: left;
+}
+
+.p1 p {
+  color: white;
+  font-family: "Roboto Slab", serif;
+  font-size: 24px;
+  padding-bottom: 5px;
+}
+
+/* .btn-handler {
+  padding-top: 20px;
+} */
+
+.b1 {
+  color: white;
+  background-color: #0cc86e;
+  border: 5px solid #0cc86e;
+  padding: 10px 20px;
+  border-radius: 13px;
+  font-family: "Rokkitt", serif;
+  font-size: 40px;
+  margin-left: -65px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.b1:hover {
+  color: #0cc86e;
+  background-color: #fff;
+  border: 5px solid #0cc86e;
+}
+.btn2 {
+  margin-top: 40px;
+  margin-left: -65px;
+}
+
+.b2 {
+  font-size: 40px;
+  font-family: "Rokkitt", serif;
+  font-weight: 400;
+  background-color: #1f2849;
+  color: #fff;
+  border-radius: 13px;
+  padding: 10px 95px;
+  margin-right: 40px;
+  border: 2px solid #1f2849;
+  box-shadow: #0e1326 5px 5px 10px;
+  cursor: pointer;
+}
+
+.b3 {
+  font-size: 40px;
+  font-family: "Rokkitt", serif;
+  font-weight: 400;
+  background-color: #1f2849;
+  color: #fff;
+  border: 2px white solid;
+  border-radius: 13px;
+  padding: 10px 95px;
+  cursor: pointer;
+}
+
+.b3:hover,
+.b2:hover {
+  background-color: #fff;
+  color: #1f2849;
+}
+.img-handler {
+  position: absolute;
+
+  right: 80px;
+  top: 100px;
+}

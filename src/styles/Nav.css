@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  text-decoration: none;
+  list-style: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Eczar&family=Montserrat:wght@400;900&family=Public+Sans&family=Rokkitt:wght@500&display=swap");
+
+.nav-handler {
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 15%;
+  transition: all 0.5s ease;
+}
+
+.logo {
+  color: #0cc86e;
+  font-size: 32px;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: "Rokkitt", serif;
+  font-weight: bolder;
+  margin-left: -65px;
+}
+
+.forest {
+  color: white;
+  font-family: "Rokkitt", serif;
+}
+.nav-list {
+  display: flex;
+}
+.nav-list li {
+  margin: 0 30px;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 30px;
+  font-family: "Rokkitt", serif;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.nav-list li:hover {
+  color: #0cc864;
+}
+.btn {
+  display: inline-block;
+  padding: 3px 32px;
+  color: #fff;
+  background: #0cc86e;
+  border-radius: 10px;
+  font-size: 26px;
+  font-weight: 300;
+  font-family: "Rokkitt", serif;
+  border: 2px solid transparent;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  border: 6px solid #0cc864;
+}
+
+.btn:hover {
+  background-color: white;
+  border: 6px solid #0cc86e;
+  color: #0cc86e;
+}
